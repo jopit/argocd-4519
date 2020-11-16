@@ -14,7 +14,7 @@ spec:
         app: argocd-4519
     spec:
       containers:
-      - image: quay.io/app-sre/nginx
+      - image: quay.io/bitnami/nginx
         name: argocd-4519
         ports:
-        - containerPort: 80
+        - containerPort: 8080
